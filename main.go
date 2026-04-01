@@ -13,7 +13,7 @@ func main() {
 	}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Hello from Go on Render!")
+		fmt.Fprintln(w, "Hola Jorge, hola Chelo!")
 	})
 
 	fmt.Println("Server running on port " + port)
